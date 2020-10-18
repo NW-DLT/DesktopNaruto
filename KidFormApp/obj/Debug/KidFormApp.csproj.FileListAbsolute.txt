@@ -1,0 +1,11 @@
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\bin\Debug\KidFormApp.exe.config
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\bin\Debug\KidFormApp.exe
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\bin\Debug\KidFormApp.pdb
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\obj\Debug\KidFormApp.csprojAssemblyReference.cache
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\obj\Debug\KidFormApp.BeginForm.resources
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\obj\Debug\KidFormApp.Properties.Resources.resources
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\obj\Debug\KidFormApp.csproj.GenerateResource.cache
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\obj\Debug\KidFormApp.csproj.CoreCompileInputs.cache
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\obj\Debug\KidFormApp.exe
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\obj\Debug\KidFormApp.pdb
+C:\Users\Рабочий\source\repos\KidFormApp\KidFormApp\obj\Debug\KidFormApp.GameForm.resources
