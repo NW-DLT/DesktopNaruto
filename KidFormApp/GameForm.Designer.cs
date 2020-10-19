@@ -76,7 +76,6 @@
             this.label1.Size = new System.Drawing.Size(34, 13);
             this.label1.TabIndex = 5;
             this.label1.Text = "00:10";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // timer2
             // 
@@ -100,7 +99,6 @@
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "02:00";
-            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // label3
             // 
@@ -143,7 +141,6 @@
             this.yt_Button3.TabIndex = 2;
             this.yt_Button3.Text = "спать";
             this.yt_Button3.UseVisualStyleBackColor = false;
-            this.yt_Button3.Click += new System.EventHandler(this.Yt_Button3_Click);
             this.yt_Button3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Yt_Button3_MouseClick);
             // 
             // yt_Button2
@@ -159,7 +156,6 @@
             this.yt_Button2.TabIndex = 1;
             this.yt_Button2.Text = "кормить";
             this.yt_Button2.UseVisualStyleBackColor = false;
-            this.yt_Button2.Click += new System.EventHandler(this.Yt_Button2_Click);
             this.yt_Button2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Yt_Button2_MouseClick);
             // 
             // yt_Button1
@@ -175,7 +171,6 @@
             this.yt_Button1.TabIndex = 0;
             this.yt_Button1.Text = "играть";
             this.yt_Button1.UseVisualStyleBackColor = false;
-            this.yt_Button1.Click += new System.EventHandler(this.Yt_Button1_Click);
             this.yt_Button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Yt_Button1_MouseClick);
             // 
             // GameForm

@@ -22,11 +22,6 @@ namespace KidFormApp
             GameForm gameForm = new GameForm();
             gameForm.Show();
         }
-
-        private void Yt_Button1_Click(object sender, EventArgs e)
-        {
-        }
-
         private void Yt_Button1_MouseClick(object sender, MouseEventArgs e)
         {
             this.Hide();

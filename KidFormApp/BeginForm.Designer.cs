@@ -45,7 +45,6 @@
             this.yt_Button1.TabIndex = 1;
             this.yt_Button1.Text = "Exit";
             this.yt_Button1.UseVisualStyleBackColor = false;
-            this.yt_Button1.Click += new System.EventHandler(this.Yt_Button1_Click);
             this.yt_Button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Yt_Button1_MouseClick);
             // 
             // PlayButton

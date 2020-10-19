@@ -17,19 +17,12 @@ namespace KidFormApp
         {
             InitializeComponent();
         }
-
-        private void Yt_Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Yt_Button4_MouseClick(object sender, MouseEventArgs e)
         {
             this.Hide();
             BeginForm beginForm = new BeginForm();
             beginForm.Show();
         }
-
         private void Yt_Button1_MouseClick(object sender, MouseEventArgs e)
         {
             potato.ChildPlay();
@@ -38,24 +31,15 @@ namespace KidFormApp
             {
                 play_time = 10;
                 timer1.Enabled = true;
-                this.BackgroundImage = Image.FromFile("C:\\Users\\Рабочий\\source\\repos\\KidFormApp\\KidFormApp\\Resources\\2.jpg");
+                this.BackgroundImage = Properties.Resources._2;
             }
             else
             {
-                this.BackgroundImage = Image.FromFile("C:\\Users\\Рабочий\\source\\repos\\KidFormApp\\KidFormApp\\Resources\\0.gif");
+                this.BackgroundImage = Properties.Resources._0;
             }
 
             textBox1.AppendText(".");//ваще хз как это работает
         }
-
-        private void Yt_Button2_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void Yt_Button3_Click(object sender, EventArgs e)
-        {
-        }
-
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
             textBox1.Text = String.Format("Счастье: {0}", potato.happiness);
@@ -77,11 +61,6 @@ namespace KidFormApp
             }
             label1.Text = String.Format("00:{0}", play_time.ToString("00"));
         }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
         int sleep_time = 120;
         private void Timer2_Tick(object sender, EventArgs e)
         {
@@ -100,12 +79,6 @@ namespace KidFormApp
             }
             label2.Text = String.Format("{0}:{1}",sleep_timeH.ToString("00"), sleep_timeM.ToString("00"));
         }
-
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Yt_Button3_MouseClick(object sender, MouseEventArgs e)
         {
             potato.ChildSleep();
@@ -114,11 +87,11 @@ namespace KidFormApp
             {
                 sleep_time = 120;
                 timer2.Enabled = true;
-                this.BackgroundImage = Image.FromFile("C:\\Users\\Рабочий\\source\\repos\\KidFormApp\\KidFormApp\\Resources\\2.jpg");
+                this.BackgroundImage = Properties.Resources._2;
             }
             else
             {
-                this.BackgroundImage = Image.FromFile("C:\\Users\\Рабочий\\source\\repos\\KidFormApp\\KidFormApp\\Resources\\0.gif");
+                this.BackgroundImage = Properties.Resources._0;
             }
             textBox1.AppendText(".");
         }
@@ -150,11 +123,11 @@ namespace KidFormApp
             {
                 feed_time = 80;
                 timer3.Enabled = true;
-                this.BackgroundImage = Image.FromFile("C:\\Users\\Рабочий\\source\\repos\\KidFormApp\\KidFormApp\\Resources\\2.jpg");
+                this.BackgroundImage = Properties.Resources._2;
             }
             else
             {
-                this.BackgroundImage = Image.FromFile("C:\\Users\\Рабочий\\source\\repos\\KidFormApp\\KidFormApp\\Resources\\0.gif");
+                this.BackgroundImage = Properties.Resources._0;
             }
             textBox1.AppendText(".");
         }
