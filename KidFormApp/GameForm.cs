@@ -16,6 +16,11 @@ namespace KidFormApp
         public GameForm()
         {
             InitializeComponent();
+            KeyPreview = true;
+            KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.D3) Yt_Button1_MouseClick(yt_Button1, null); };
+            KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.D1) Yt_Button2_MouseClick(yt_Button2, null); };
+            KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.D2) Yt_Button3_MouseClick(yt_Button3, null); };
+            KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.Escape) Yt_Button4_MouseClick(yt_Button4, null); };
         }
         private void Yt_Button4_MouseClick(object sender, MouseEventArgs e)
         {
@@ -38,7 +43,7 @@ namespace KidFormApp
                 this.BackgroundImage = Properties.Resources._0;
             }
 
-            textBox1.AppendText(".");//ваще хз как это работает
+            textBox1.AppendText(" ");//ваще хз как это работает
         }
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
@@ -93,7 +98,7 @@ namespace KidFormApp
             {
                 this.BackgroundImage = Properties.Resources._0;
             }
-            textBox1.AppendText(".");
+            textBox1.AppendText(" ");
         }
 
         int feed_time = 80;
@@ -129,7 +134,7 @@ namespace KidFormApp
             {
                 this.BackgroundImage = Properties.Resources._0;
             }
-            textBox1.AppendText(".");
+            textBox1.AppendText(" ");
         }
     }
 }

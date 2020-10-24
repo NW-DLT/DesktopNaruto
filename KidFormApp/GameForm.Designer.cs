@@ -51,10 +51,10 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(460, 12);
+            this.textBox1.Location = new System.Drawing.Point(421, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(114, 33);
+            this.textBox1.Size = new System.Drawing.Size(153, 33);
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "Счастье: 10";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

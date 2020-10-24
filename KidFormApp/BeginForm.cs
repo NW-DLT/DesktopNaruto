@@ -15,6 +15,9 @@ namespace KidFormApp
         public BeginForm()
         {
             InitializeComponent();
+            KeyPreview = true;
+            KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.Space) PlayButton_MouseClick(PlayButton, null); };
+            KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.F2) Yt_Button1_MouseClick(yt_Button1, null); };
         }
         private void PlayButton_MouseClick(object sender, MouseEventArgs e)
         {
