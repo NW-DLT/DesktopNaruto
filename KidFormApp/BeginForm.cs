@@ -17,7 +17,7 @@ namespace KidFormApp
             InitializeComponent();
             KeyPreview = true;
             KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.Space) PlayButton_MouseClick(PlayButton, null); };
-            KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.F2) Yt_Button1_MouseClick(yt_Button1, null); };
+            KeyDown += (s, e) => { if (e.KeyValue == (char)Keys.Escape) Yt_Button1_MouseClick(yt_Button1, null); };
         }
         private void PlayButton_MouseClick(object sender, MouseEventArgs e)
         {
@@ -27,7 +27,7 @@ namespace KidFormApp
         }
         private void Yt_Button1_MouseClick(object sender, MouseEventArgs e)
         {
-            this.Hide();
+            Application.Exit();
         }
     }
 }
